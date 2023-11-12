@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Post from '../Post';
-import { useCustomRequest } from '@/app/hooks/useCustomRequest';
+import { useCustomRequest } from '@/hooks/useCustomRequest';
 import FirstPost from './FirstPost';
 
 interface PostData {
